@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "AutoSkip Intro",
+    "version": "1.0",
+    "description": "Automatically skips intro on Netflix.",
+    "permissions": ["activeTab", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.netflix.com/*"],
+        "js": ["scripts/content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon":"images/icon16.png"
+    },
+    "icons": {
+      "16": "images/icon16.png"
+       }
+}
+  
