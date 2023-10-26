@@ -6,7 +6,7 @@
     "permissions": ["activeTab", "storage"],
     "content_scripts": [
       {
-        "matches": ["*://*.netflix.com/*"],
+        "matches": ["*://*.netflix.com/*","*://*.hotstar.com/*"],
         "js": ["scripts/content.js"]
       }
     ],
