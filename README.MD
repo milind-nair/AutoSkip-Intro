@@ -13,3 +13,7 @@ This is a google chrome extension that automatically skips the intro scene of TV
 
 - Skipping Ads
 - Skipping Recaps
+Enabling Support for Amazon Prime Video
+
+## Issues 
+In Hotstar, it will only work if the Skip Intro button is automatically displayed on screen. In some cases, especially when intros are short, Hotstar doesn't show the skip intro button unless you move the mouse. 
