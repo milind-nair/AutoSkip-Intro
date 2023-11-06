@@ -7,6 +7,8 @@ if (provider === "netflix") {
 } else if (provider === "hotstar") {
   query =
     'button[class="_1CSTLo7uotP5mTlp3jKun7 _2HYkSYMlyfm2mRvVj37UvB _1hvr__NMJbQHNb3s6iYa1w BODY2_MEDIUM TEXT_COLOR_L0"]';
+} else if (provider === "primevideo") {
+  query = ".atvwebplayersdk-skipelement-button";
 }
 
 function clickSkipIntro(entries, introButtonClassTag) {
